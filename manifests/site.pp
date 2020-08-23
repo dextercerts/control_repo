@@ -5,3 +5,6 @@ node default {
     owner   => 'root',
   }  
 }
+node 'puppetm.dexterslab.local' {
+  include role::master_server
+}
