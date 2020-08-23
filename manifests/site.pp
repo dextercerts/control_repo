@@ -5,7 +5,7 @@ node default {
     owner   => 'root',
   }  
   class { 'ntp':
-    servers => ['nist-time-server.eoni.com','nist1-lv.ustiming.org','ntp-nist.ldsbc.edu']
+    servers => ['3.ae.pool.ntp.org','0.asia.pool.ntp.org','2.asia.pool.ntp.org']
   }  
 }
 node 'puppetm.dexterslab.local' {
